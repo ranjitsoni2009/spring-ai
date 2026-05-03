@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: spring-ai-learning-openai
+  ai:
+    openai:
+      api-key: ${OPEN_AI_KEY}
