@@ -22,9 +22,6 @@ public class OpenAIPromptTemplateStuffingController {
 
     private final ChatClient chatClient;
 
-    @Value("classpath:/promptTemplates/emailPrompt.st")
-    Resource userPromptTemplate;
-
     public OpenAIPromptTemplateStuffingController(ChatClient chatClient) {
         this.chatClient = chatClient;
     }
